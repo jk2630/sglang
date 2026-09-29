@@ -16,6 +16,10 @@ command = [
     "--port",
     PORT,
     "--trust-remote-code",
+    "--dtype",
+    "half",
+    "--attention-backend",
+    "triton",
 ]
 
 print("=" * 60)
